@@ -2,5 +2,5 @@
     "include": [
     "./node_modules/cypress",
     "cypress/**/*.js"
-    ]
+, "cypress/e2e/mytest/mytest.cy.js.old"    ]
     }

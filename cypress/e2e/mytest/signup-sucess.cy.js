@@ -1,4 +1,4 @@
-const { firstName, lastName, password } = require("../fixtures/user.json");
+const { firstName, lastName, password } = require("../../fixtures/user.json");
 
 describe("Back Marcket", () => {
   beforeEach(() => {
