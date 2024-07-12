@@ -41,3 +41,9 @@ Cypress.Commands.add("auth", (email, password) => {
   cy.get("#signin-password").type(password);
   cy.get('[data-qa="signin-submit-button"]').click();
 });
+
+Cypress.Commands.add("Cyr_GoLogin", () => {
+      cy.visit(`${Cypress.env("baseUrl")}/register`);
+      cy.get('[data-qa="accept-cta"]').click();    
+});
+
